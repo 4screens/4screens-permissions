@@ -1,0 +1,62 @@
+{
+  "engageForm": {
+    "defaults": {
+      "billingTime": 1,
+      "permissions": {
+        "exitLink": false,
+        "branding": false,
+        "fillouts": 10
+      }
+    },
+    "starter": {
+      "planId": "engageform-starter",
+      "default": true,
+      "level": 0,
+      "active": true,
+      "price": 0
+    },
+    "basic": {
+      "planId": "engageform-basic",
+      "level": 1,
+      "active": true,
+      "price": 25,
+      "permissions": {
+        "exitLink": true,
+        "fillouts": 1000
+      }
+    },
+    "standard": {
+      "planId": "engageform-standard",
+      "level": 2,
+      "active": true,
+      "price": 75,
+      "permissions": {
+        "exitLink": true,
+        "branding": true,
+        "fillouts": 10000
+      }
+    },
+    "pro": {
+      "planId": "engageform-pro",
+      "level": 3,
+      "active": true,
+      "price": 175,
+      "permissions": {
+        "exitLink": true,
+        "branding": true,
+        "fillouts": 50000
+      }
+    },
+    "enterprise": {
+      "planId": "engageform-enterprise",
+      "level": 1000000,
+      "active": true,
+      "permissions": {
+        "exitLink": true,
+        "branding": true,
+        "fillouts": -1
+      }
+    }
+  }
+} 
+  

@@ -1,0 +1,21 @@
+{
+  "name": "4screens-permissions",
+  "version": "0.0.1",
+  "description": "Description of permissions for payment plans in 4screens.net platform",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/4screens/4screens-permissions.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "4screens"
+  ],
+  "author": "Tomasz Marciszewski <tomasz.marciszewski@nopattern.net> (http://4screens.net)",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}
