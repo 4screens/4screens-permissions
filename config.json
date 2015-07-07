@@ -11,13 +11,11 @@
     "starter": {
       "planId": "engageform-starter",
       "default": true,
-      "level": 0,
       "active": true,
       "price": 0
     },
     "basic": {
       "planId": "engageform-basic",
-      "level": 1,
       "active": true,
       "price": 25,
       "permissions": {
@@ -27,7 +25,6 @@
     },
     "standard": {
       "planId": "engageform-standard",
-      "level": 2,
       "active": true,
       "price": 75,
       "permissions": {
@@ -38,7 +35,6 @@
     },
     "pro": {
       "planId": "engageform-pro",
-      "level": 3,
       "active": true,
       "price": 175,
       "permissions": {
@@ -49,8 +45,9 @@
     },
     "enterprise": {
       "planId": "engageform-enterprise",
-      "level": 1000000,
       "active": true,
+      "price": 0,
+      "checkoutDisabled": true,
       "permissions": {
         "exitLink": true,
         "branding": true,
