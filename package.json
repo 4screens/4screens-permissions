@@ -1,6 +1,6 @@
 {
   "name": "4screens-permissions",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Description of permissions for payment plans in 4screens.net platform",
   "main": "index.js",
   "repository": {
