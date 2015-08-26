@@ -1,4 +1,75 @@
 {
+  "engageNow": {
+    "defaults": {
+      "billingTime": 1,
+      "permissions": {
+        "maxConnectedUsers": 0
+      }
+    },
+    "starter": {
+      "planId": "engagenow-starter",
+      "price": 25,
+      "active": true,
+      "permissions": {
+        "maxConnectedUsers": 100,
+        "maxEmbeds": 1,
+        "branding": false
+      },
+      "trialPermissions": {
+        "maxConnectedUsers": 10
+      }
+    },
+    "basic": {
+      "planId": "engagenow-basic",
+      "price": 75,
+      "active": true,
+      "permissions": {
+        "maxConnectedUsers": 500,
+        "maxEmbeds": 1,
+        "branding": false
+      },
+      "trialPermissions": {
+        "maxConnectedUsers": 10
+      }
+    },
+    "standard": {
+      "planId": "engagenow-standard",
+      "price": 175,
+      "active": true,
+      "permissions": {
+        "maxConnectedUsers": 1000,
+        "maxEmbeds": 1,
+        "branding": false
+      },
+      "trialPermissions": {
+        "maxConnectedUsers": 10
+      }
+    },
+    "pro": {
+      "planId": "engagenow-pro",
+      "price": 500,
+      "active": true,
+      "permissions": {
+        "maxConnectedUsers": 10000,
+        "maxEmbeds": 2,
+        "branding": true
+      },
+      "trialPermissions": {
+        "maxConnectedUsers": 10
+      }
+    },
+    "enterprise": {
+      "planId": "engagenow-enterprise",
+      "price": 0,
+      "active": true,
+      "checkoutDisabled": true,
+      "permissions": {
+        "maxConnectedUsers": -1,
+        "maxEmbeds": -1,
+        "branding": true
+      }
+    }
+  },
   "engageForm": {
     "defaults": {
       "billingTime": 1,
