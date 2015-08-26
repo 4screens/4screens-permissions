@@ -29,13 +29,24 @@ module.exports = function() {
     },
 
     val: function(account, planType, property) {
+      if(account.toObject) {
+        account = account.toObject();
+      }
+      
       if(!account.settings.subscriptionData ||
         !account.settings.subscriptionData.plans ||
         !account.settings.subscriptionData.plans[planType] ||
-        !account.settings.subscriptionData.plans[planType].planId) {
+        !account.settings.subscriptionData.plans[planType].planId ||
+        plans[planType][account.settings.subscriptionData.plans[planType].planId] === undefined) {
         return undefined;
       }
 
+      if(account.settings.subscriptionData.plans[planType].isTrial &&
+        plans[planType][account.settings.subscriptionData.plans[planType].planId].trialPermissions) {
+        if(plans[planType][account.settings.subscriptionData.plans[planType].planId].trialPermissions[property] !== undefined) {
+          return plans[planType][account.settings.subscriptionData.plans[planType].planId].trialPermissions[property];
+        }
+      }
       return plans[planType][account.settings.subscriptionData.plans[planType].planId].permissions[property];
     },
 
@@ -45,6 +56,15 @@ module.exports = function() {
       },
       val: function(account, property) {
         return module.val(account, 'engageForm', property);
+      }
+    },
+
+    engageNow: {
+      can: function(account, property) {
+        return module.can(account, 'engageNow', property);
+      },
+      val: function(account, property) {
+        return module.val(account, 'engageNow', property);
       }
     }
 
