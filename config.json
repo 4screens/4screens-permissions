@@ -8,15 +8,13 @@
     },
     "starter": {
       "planId": "engagenow-starter",
-      "price": 25,
+      "price": 0,
+      "default": true,
       "active": true,
       "permissions": {
-        "maxConnectedUsers": 100,
+        "maxConnectedUsers": 5,
         "maxEmbeds": 1,
         "branding": false
-      },
-      "trialPermissions": {
-        "maxConnectedUsers": 10
       }
     },
     "basic": {
@@ -24,12 +22,9 @@
       "price": 75,
       "active": true,
       "permissions": {
-        "maxConnectedUsers": 500,
+        "maxConnectedUsers": 100,
         "maxEmbeds": 1,
         "branding": false
-      },
-      "trialPermissions": {
-        "maxConnectedUsers": 10
       }
     },
     "standard": {
@@ -37,12 +32,9 @@
       "price": 175,
       "active": true,
       "permissions": {
-        "maxConnectedUsers": 1000,
+        "maxConnectedUsers": 500,
         "maxEmbeds": 1,
-        "branding": false
-      },
-      "trialPermissions": {
-        "maxConnectedUsers": 10
+        "branding": true
       }
     },
     "pro": {
@@ -50,12 +42,9 @@
       "price": 500,
       "active": true,
       "permissions": {
-        "maxConnectedUsers": 10000,
+        "maxConnectedUsers": 1000,
         "maxEmbeds": 2,
         "branding": true
-      },
-      "trialPermissions": {
-        "maxConnectedUsers": 10
       }
     },
     "enterprise": {
