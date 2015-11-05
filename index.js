@@ -66,6 +66,15 @@ module.exports = function() {
       val: function(account, property) {
         return module.val(account, 'engageNow', property);
       }
+    },
+
+    engageHub: {
+      can: function(account, property) {
+        return module.can(account, 'engageHub', property);
+      },
+      val: function(account, property) {
+        return module.val(account, 'engageHub', property);
+      }
     }
 
   };

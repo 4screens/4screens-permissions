@@ -1,4 +1,49 @@
 {
+  "engageHub": {
+    "defaults": {
+      "billingTime": 1,
+      "permissions": {
+      }
+    },
+    "starter": {
+      "planId": "engagehub-starter",
+      "price": 0,
+      "default": true,
+      "active": true,
+      "permissions": {
+      }
+    },
+    "basic": {
+      "planId": "engagehub-basic",
+      "price": 75,
+      "active": true,
+      "permissions": {
+      }
+    },
+    "standard": {
+      "planId": "engagehub-standard",
+      "price": 175,
+      "active": true,
+      "permissions": {
+      }
+    },
+    "pro": {
+      "planId": "engagehub-pro",
+      "price": 500,
+      "active": true,
+      "permissions": {
+      }
+    },
+    "enterprise": {
+      "planId": "engagehub-enterprise",
+      "price": 0,
+      "active": true,
+      "checkoutDisabled": true,
+      "permissions": {
+      }
+    }
+  },
+
   "engageNow": {
     "defaults": {
       "billingTime": 1,
@@ -59,6 +104,7 @@
       }
     }
   },
+
   "engageForm": {
     "defaults": {
       "billingTime": 1,
