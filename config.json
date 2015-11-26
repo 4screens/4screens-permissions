@@ -100,7 +100,8 @@
       "permissions": {
         "maxConnectedUsers": -1,
         "maxEmbeds": 4,
-        "branding": true
+        "branding": true,
+        "buzzer": true
       }
     }
   },
