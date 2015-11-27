@@ -15,14 +15,14 @@
     },
     "basic": {
       "planId": "engagehub-basic",
-      "price": 75,
+      "price": 125,
       "active": true,
       "permissions": {
       }
     },
     "standard": {
       "planId": "engagehub-standard",
-      "price": 175,
+      "price": 250,
       "active": true,
       "permissions": {
       }
@@ -64,7 +64,7 @@
     },
     "basic": {
       "planId": "engagenow-basic",
-      "price": 75,
+      "price": 125,
       "active": true,
       "permissions": {
         "maxConnectedUsers": 100,
@@ -74,7 +74,7 @@
     },
     "standard": {
       "planId": "engagenow-standard",
-      "price": 175,
+      "price": 250,
       "active": true,
       "permissions": {
         "maxConnectedUsers": 500,
