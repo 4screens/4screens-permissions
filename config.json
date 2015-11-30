@@ -78,7 +78,7 @@
       "active": true,
       "permissions": {
         "maxConnectedUsers": 500,
-        "maxEmbeds": 1,
+        "maxEmbeds": 2,
         "branding": true
       }
     },
@@ -88,7 +88,7 @@
       "active": true,
       "permissions": {
         "maxConnectedUsers": 1000,
-        "maxEmbeds": 2,
+        "maxEmbeds": 4,
         "branding": true
       }
     },
