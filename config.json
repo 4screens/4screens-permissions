@@ -112,6 +112,7 @@
       "permissions": {
         "exitLink": false,
         "branding": false,
+        "hubspotIntegration": false,
         "fillouts": 10
       }
     },
@@ -147,6 +148,7 @@
       "permissions": {
         "exitLink": true,
         "branding": true,
+        "hubspotIntegration": true,
         "fillouts": 50000
       }
     },
@@ -158,6 +160,7 @@
       "permissions": {
         "exitLink": true,
         "branding": true,
+        "hubspotIntegration": true,
         "fillouts": -1
       }
     }
