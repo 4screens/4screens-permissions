@@ -113,6 +113,7 @@
         "exitLink": false,
         "branding": false,
         "hubspotIntegration": false,
+        "mailchimpIntegration": false,
         "fillouts": 10
       }
     },
@@ -138,6 +139,7 @@
       "permissions": {
         "exitLink": true,
         "branding": true,
+        "mailchimpIntegration": true,
         "fillouts": 10000
       }
     },
@@ -149,6 +151,7 @@
         "exitLink": true,
         "branding": true,
         "hubspotIntegration": true,
+        "mailchimpIntegration": true,
         "fillouts": 50000
       }
     },
@@ -161,9 +164,9 @@
         "exitLink": true,
         "branding": true,
         "hubspotIntegration": true,
+        "mailchimpIntegration": true,
         "fillouts": -1
       }
     }
   }
-} 
-  
+}
