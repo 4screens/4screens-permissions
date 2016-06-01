@@ -140,6 +140,7 @@
         "exitLink": true,
         "branding": true,
         "mailchimpIntegration": true,
+        "hubspotIntegration": true,
         "fillouts": 10000
       }
     },
