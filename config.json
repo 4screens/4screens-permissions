@@ -114,6 +114,7 @@
         "branding": false,
         "hubspotIntegration": false,
         "mailchimpIntegration": false,
+        "salesmanagoIntegration": false,
         "fillouts": 10
       }
     },
@@ -141,6 +142,7 @@
         "branding": true,
         "mailchimpIntegration": true,
         "hubspotIntegration": true,
+        "salesmanagoIntegration": true,
         "fillouts": 10000
       }
     },
@@ -153,6 +155,7 @@
         "branding": true,
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
         "fillouts": 50000
       }
     },
@@ -166,6 +169,7 @@
         "branding": true,
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
         "fillouts": -1
       }
     }
