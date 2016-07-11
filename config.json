@@ -115,6 +115,7 @@
         "hubspotIntegration": false,
         "mailchimpIntegration": false,
         "salesmanagoIntegration": false,
+        "customVariables": false,
         "fillouts": 10
       }
     },
@@ -130,6 +131,7 @@
       "price": 25,
       "permissions": {
         "exitLink": true,
+        "customVariables": true,
         "fillouts": 1000
       }
     },
@@ -143,6 +145,7 @@
         "mailchimpIntegration": true,
         "hubspotIntegration": true,
         "salesmanagoIntegration": true,
+        "customVariables": true,
         "fillouts": 10000
       }
     },
@@ -156,6 +159,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "customVariables": true,
         "fillouts": 50000
       }
     },
@@ -170,6 +174,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "customVariables": true,
         "fillouts": -1
       }
     }
