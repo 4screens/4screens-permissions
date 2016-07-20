@@ -2,11 +2,13 @@
   "engageHub": {
     "defaults": {
       "billingTime": 1,
+      "connectionsLimit": 1,
       "permissions": {
       }
     },
     "starter": {
       "planId": "engagehub-starter",
+      "connectionsLimit": 1,
       "price": 0,
       "default": true,
       "active": true,
@@ -15,6 +17,7 @@
     },
     "basic": {
       "planId": "engagehub-basic",
+      "connectionsLimit": 3,
       "price": 125,
       "active": true,
       "permissions": {
@@ -23,6 +26,7 @@
     },
     "standard": {
       "planId": "engagehub-standard",
+      "connectionsLimit": 6,
       "price": 250,
       "active": true,
       "permissions": {
@@ -31,6 +35,7 @@
     },
     "pro": {
       "planId": "engagehub-pro",
+      "connectionsLimit": 12,
       "price": 500,
       "active": true,
       "permissions": {
@@ -39,6 +44,7 @@
     },
     "enterprise": {
       "planId": "engagehub-enterprise",
+      "connectionsLimit": 24,
       "price": 0,
       "active": true,
       "checkoutDisabled": true,
