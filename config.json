@@ -18,7 +18,7 @@
     "basic": {
       "planId": "engagehub-basic",
       "connectionsLimit": 3,
-      "price": 125,
+      "price": 50,
       "active": true,
       "permissions": {
         "stateBranding": true
@@ -27,7 +27,7 @@
     "standard": {
       "planId": "engagehub-standard",
       "connectionsLimit": 6,
-      "price": 250,
+      "price": 125,
       "active": true,
       "permissions": {
         "stateBranding": true
@@ -36,7 +36,7 @@
     "pro": {
       "planId": "engagehub-pro",
       "connectionsLimit": 12,
-      "price": 500,
+      "price": 250,
       "active": true,
       "permissions": {
         "stateBranding": true
