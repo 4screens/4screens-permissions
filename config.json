@@ -126,6 +126,7 @@
         "mailchimpIntegration": false,
         "salesmanagoIntegration": false,
         "customVariables": false,
+        "adsEmbed": false,
         "fillouts": 10
       }
     },
@@ -185,6 +186,7 @@
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
         "customVariables": true,
+        "adsEmbed": true,
         "fillouts": -1
       }
     }
