@@ -32,7 +32,7 @@ module.exports = function() {
       if(account.toObject) {
         account = account.toObject();
       }
-      
+
       if(!account.settings.subscriptionData ||
         !account.settings.subscriptionData.plans ||
         !account.settings.subscriptionData.plans[planType] ||
@@ -67,16 +67,6 @@ module.exports = function() {
         return module.val(account, 'engageNow', property);
       }
     },
-
-    engageHub: {
-      can: function(account, property) {
-        return module.can(account, 'engageHub', property);
-      },
-      val: function(account, property) {
-        return module.val(account, 'engageHub', property);
-      }
-    }
-
   };
   return module;
 };
