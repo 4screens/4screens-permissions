@@ -16,7 +16,7 @@ module.exports = function() {
 
       var accountPlans = account.settings.subscriptionData.plans || {};
       for (var planType in accountPlans) {
-        if (accountPlans.hasOwnProperty(planType)) {
+        if (accountPlans.hasOwnProperty(planType) && module.plans()[planType]) {
           result[planType] = module.plans()[planType][accountPlans[planType].planId];
         }
       }
