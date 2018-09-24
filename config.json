@@ -102,7 +102,8 @@
         "hubspotIntegration": true,
         "salesmanagoIntegration": true,
         "customVariables": true,
-        "fillouts": 10000
+        "fillouts": 10000,
+        "adsEmbed": true
       }
     },
     "pro": {
@@ -116,7 +117,8 @@
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
         "customVariables": true,
-        "fillouts": 50000
+        "fillouts": 50000,
+        "adsEmbed": true
       }
     },
     "enterprise": {
