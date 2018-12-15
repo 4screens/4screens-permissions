@@ -70,6 +70,7 @@
         "hubspotIntegration": false,
         "mailchimpIntegration": false,
         "salesmanagoIntegration": false,
+        "gtmIntegration": false,
         "customVariables": false,
         "adsEmbed": false,
         "fillouts": 10
@@ -100,6 +101,7 @@
         "branding": true,
         "mailchimpIntegration": true,
         "hubspotIntegration": true,
+        "gtmIntegration": true,
         "salesmanagoIntegration": true,
         "customVariables": true,
         "fillouts": 10000,
@@ -116,6 +118,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "gtmIntegration": true,
         "customVariables": true,
         "fillouts": 50000,
         "adsEmbed": true
@@ -132,6 +135,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "gtmIntegration": true,
         "customVariables": true,
         "adsEmbed": true,
         "fillouts": -1
