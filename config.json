@@ -88,6 +88,7 @@
       "price": 25,
       "permissions": {
         "exitLink": true,
+        "redirect": true,
         "customVariables": true,
         "fillouts": 1000
       }
@@ -98,6 +99,7 @@
       "price": 75,
       "permissions": {
         "exitLink": true,
+        "redirect": true,
         "branding": true,
         "mailchimpIntegration": true,
         "hubspotIntegration": true,
@@ -114,6 +116,7 @@
       "price": 175,
       "permissions": {
         "exitLink": true,
+        "redirect": true,
         "branding": true,
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
@@ -131,6 +134,7 @@
       "checkoutDisabled": true,
       "permissions": {
         "exitLink": true,
+        "redirect": true,
         "branding": true,
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
