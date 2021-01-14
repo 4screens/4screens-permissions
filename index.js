@@ -50,23 +50,15 @@ module.exports = function() {
       return plans[planType][account.settings.subscriptionData.plans[planType].planId].permissions[property];
     },
 
-    engageForm: {
+    youengage: {
       can: function(account, property) {
-        return module.can(account, 'engageForm', property);
+        return module.can(account, 'youengage', property);
       },
       val: function(account, property) {
-        return module.val(account, 'engageForm', property);
+        return module.val(account, 'youengage', property);
       }
     },
 
-    engageNow: {
-      can: function(account, property) {
-        return module.can(account, 'engageNow', property);
-      },
-      val: function(account, property) {
-        return module.val(account, 'engageNow', property);
-      }
-    },
   };
   return module;
 };

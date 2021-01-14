@@ -1,148 +1,118 @@
 {
-  "engageNow": {
+  "youengage": {
     "defaults": {
       "billingTime": 1,
       "permissions": {
-        "maxConnectedUsers": 0
-      }
-    },
-    "starter": {
-      "planId": "engagenow-starter",
-      "price": 0,
-      "default": true,
-      "active": true,
-      "permissions": {
-        "maxConnectedUsers": 5,
-        "maxEmbeds": 1,
-        "branding": false
-      }
-    },
-    "basic": {
-      "planId": "engagenow-basic",
-      "price": 125,
-      "active": true,
-      "permissions": {
+        "fillouts": 100,
         "maxConnectedUsers": 100,
         "maxEmbeds": 1,
-        "branding": false
-      }
-    },
-    "standard": {
-      "planId": "engagenow-standard",
-      "price": 250,
-      "active": true,
-      "permissions": {
-        "maxConnectedUsers": 500,
-        "maxEmbeds": 2,
-        "branding": true
-      }
-    },
-    "pro": {
-      "planId": "engagenow-pro",
-      "price": 500,
-      "active": true,
-      "permissions": {
-        "maxConnectedUsers": 1000,
-        "maxEmbeds": 4,
-        "branding": true
-      }
-    },
-    "enterprise": {
-      "planId": "engagenow-enterprise",
-      "price": 0,
-      "active": true,
-      "checkoutDisabled": true,
-      "permissions": {
-        "maxConnectedUsers": -1,
-        "maxEmbeds": 4,
-        "branding": true,
-        "buzzer": true
-      }
-    }
-  },
-
-  "engageForm": {
-    "defaults": {
-      "billingTime": 1,
-      "permissions": {
         "exitLink": false,
+        "redirect": false,
         "branding": false,
+        "logicJumps": false,
+        "customVariables": false,
+        "eventModeration": false,
+        "adsEmbed": false,
+        "zapierIntegration": false,
         "hubspotIntegration": false,
         "mailchimpIntegration": false,
         "salesmanagoIntegration": false,
-        "gtmIntegration": false,
-        "customVariables": false,
-        "adsEmbed": false,
-        "fillouts": 10
+        "gtmIntegration": false
       }
     },
-    "starter": {
-      "planId": "engageform-starter",
+    "free": {
+      "planId": "youengage_free",
       "default": true,
       "active": true,
       "price": 0
     },
-    "basic": {
-      "planId": "engageform-basic",
+    "starter": {
+      "planId": "youengage_starter",
       "active": true,
-      "price": 25,
+      "price": 29,
       "permissions": {
+        "fillouts": 1000,
+        "maxConnectedUsers": 500,
+        "maxEmbeds": 1,
         "exitLink": true,
         "redirect": true,
+        "branding": false,
+        "logicJumps": true,
+        "eventModeration": true,
         "customVariables": true,
-        "fillouts": 1000
-      }
-    },
-    "standard": {
-      "planId": "engageform-standard",
-      "active": true,
-      "price": 75,
-      "permissions": {
-        "exitLink": true,
-        "redirect": true,
-        "branding": true,
-        "mailchimpIntegration": true,
-        "hubspotIntegration": true,
-        "gtmIntegration": true,
-        "salesmanagoIntegration": true,
-        "customVariables": true,
-        "fillouts": 10000,
-        "adsEmbed": true
-      }
-    },
-    "pro": {
-      "planId": "engageform-pro",
-      "active": true,
-      "price": 175,
-      "permissions": {
-        "exitLink": true,
-        "redirect": true,
-        "branding": true,
+        "adsEmbed": false,
+        "zapierIntegration": true,
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
-        "gtmIntegration": true,
+        "gtmIntegration": false
+      }
+    },
+    "professional": {
+      "planId": "youengage_professional",
+      "price": 79,
+      "active": true,
+      "permissions": {
+        "fillouts": 5000,
+        "maxConnectedUsers": 1000,
+        "maxEmbeds": 2,
+        "exitLink": true,
+        "redirect": true,
+        "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
         "customVariables": true,
-        "fillouts": 50000,
-        "adsEmbed": true
+        "adsEmbed": true,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": true
+      }
+    },
+    "business": {
+      "planId": "youengage_business",
+      "price": 199,
+      "active": true,
+      "permissions": {
+        "fillouts": 15000,
+        "maxConnectedUsers": 2500,
+        "maxEmbeds": 4,
+        "exitLink": true,
+        "redirect": true,
+        "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": true,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": true
       }
     },
     "enterprise": {
-      "planId": "engageform-enterprise",
-      "active": true,
+      "planId": "youengage_enterprise",
       "price": 0,
+      "active": true,
       "checkoutDisabled": true,
       "permissions": {
+        "fillouts": -1,
+        "maxConnectedUsers": -1,
+        "maxEmbeds": 4,
         "exitLink": true,
         "redirect": true,
         "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": true,
+        "zapierIntegration": true,
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
-        "gtmIntegration": true,
-        "customVariables": true,
-        "adsEmbed": true,
-        "fillouts": -1
+        "gtmIntegration": true
       }
     }
   }
