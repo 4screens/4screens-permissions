@@ -54,7 +54,7 @@
       "active": true,
       "price": 29,
       "permissions": {
-        "fillouts": 1000,
+        "fillouts": 2500,
         "maxConnectedUsers": 500,
         "maxEmbeds": 1,
         "exitLink": true,
@@ -76,7 +76,7 @@
       "active": true,
       "price": 29,
       "permissions": {
-        "fillouts": 1000,
+        "fillouts": 2500,
         "maxConnectedUsers": 500,
         "maxEmbeds": 1,
         "exitLink": true,
@@ -98,7 +98,7 @@
       "price": 79,
       "active": true,
       "permissions": {
-        "fillouts": 5000,
+        "fillouts": 10000,
         "maxConnectedUsers": 1000,
         "maxEmbeds": 2,
         "exitLink": true,
@@ -120,7 +120,7 @@
       "price": 199,
       "active": true,
       "permissions": {
-        "fillouts": 15000,
+        "fillouts": 25000,
         "maxConnectedUsers": 2500,
         "maxEmbeds": 4,
         "exitLink": true,
@@ -159,6 +159,117 @@
         "salesmanagoIntegration": true,
         "gtmIntegration": true
       }
+    },
+    "appsumo_ltd_starter": {
+      "planId": "appsumo_ltd_starter",
+      "active": true,
+      "price": 0,
+      "permissions": {
+        "fillouts": 2500,
+        "maxConnectedUsers": 500,
+        "maxEmbeds": 1,
+        "exitLink": true,
+        "redirect": true,
+        "branding": false,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": false,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": false
+      }
+    },
+    "appsumo_ltd_professional": {
+      "planId": "appsumo_ltd_professional",
+      "price": 0,
+      "active": true,
+      "permissions": {
+        "fillouts": 10000,
+        "maxConnectedUsers": 1000,
+        "maxEmbeds": 2,
+        "exitLink": true,
+        "redirect": true,
+        "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": true,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": true
+      }
+    },
+    "appsumo_ltd_business": {
+      "planId": "appsumo_ltd_business",
+      "price": 0,
+      "active": true,
+      "permissions": {
+        "fillouts": 25000,
+        "maxConnectedUsers": 2500,
+        "maxEmbeds": 4,
+        "exitLink": true,
+        "redirect": true,
+        "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": true,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": true
+      }
+    },
+    "appsumo_ltd_business_4": {
+      "planId": "appsumo_ltd_business_4",
+      "price": 0,
+      "active": true,
+      "permissions": {
+        "fillouts": 50000,
+        "maxConnectedUsers": 7500,
+        "maxEmbeds": 4,
+        "exitLink": true,
+        "redirect": true,
+        "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": true,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": true
+      }
+    },
+    "appsumo_ltd_business_5": {
+      "planId": "appsumo_ltd_business_5",
+      "price": 0,
+      "active": true,
+      "permissions": {
+        "fillouts": 100000,
+        "maxConnectedUsers": 10000,
+        "maxEmbeds": 4,
+        "exitLink": true,
+        "redirect": true,
+        "branding": true,
+        "logicJumps": true,
+        "eventModeration": true,
+        "customVariables": true,
+        "adsEmbed": true,
+        "zapierIntegration": true,
+        "hubspotIntegration": true,
+        "mailchimpIntegration": true,
+        "salesmanagoIntegration": true,
+        "gtmIntegration": true
+      }
     }
+
   }
 }
