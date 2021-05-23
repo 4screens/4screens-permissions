@@ -50,28 +50,6 @@
       }
     },
     "starter": {
-      "planId": "youengage_free_trial",
-      "active": true,
-      "price": 29,
-      "permissions": {
-        "fillouts": 2500,
-        "maxConnectedUsers": 500,
-        "maxEmbeds": 1,
-        "exitLink": true,
-        "redirect": true,
-        "branding": false,
-        "logicJumps": true,
-        "eventModeration": true,
-        "customVariables": true,
-        "adsEmbed": false,
-        "zapierIntegration": true,
-        "hubspotIntegration": true,
-        "mailchimpIntegration": true,
-        "salesmanagoIntegration": true,
-        "gtmIntegration": false
-      }
-    },
-    "starter": {
       "planId": "youengage_starter",
       "active": true,
       "price": 29,
@@ -121,7 +99,7 @@
       "active": true,
       "permissions": {
         "fillouts": 25000,
-        "maxConnectedUsers": 2500,
+        "maxConnectedUsers": 5000,
         "maxEmbeds": 4,
         "exitLink": true,
         "redirect": true,
@@ -210,7 +188,7 @@
       "active": true,
       "permissions": {
         "fillouts": 25000,
-        "maxConnectedUsers": 2500,
+        "maxConnectedUsers": 5000,
         "maxEmbeds": 4,
         "exitLink": true,
         "redirect": true,
