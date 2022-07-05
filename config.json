@@ -17,6 +17,7 @@
         "hubspotIntegration": false,
         "mailchimpIntegration": false,
         "salesmanagoIntegration": false,
+        "mediaEmbed": false,
         "gtmIntegration": false
       }
     },
@@ -48,6 +49,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -70,6 +72,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": false
       }
     },
@@ -93,6 +96,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -117,6 +121,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -142,6 +147,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -164,6 +170,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": false
       }
     },
@@ -187,6 +194,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -211,6 +219,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -235,6 +244,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     },
@@ -259,6 +269,7 @@
         "hubspotIntegration": true,
         "mailchimpIntegration": true,
         "salesmanagoIntegration": true,
+        "mediaEmbed": true,
         "gtmIntegration": true
       }
     }
